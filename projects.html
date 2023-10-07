@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="dist/output.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/6e58fe20b7.js" crossorigin="anonymous"></script>
+    <title>Raka Sanjaya</title>
+</head>
+
+<body class="bg-dark text-white font-inter">
+    <header class="sticky top-0 w-full z-[9999]">
+        <section
+            class="relative w-full flex flex-nowrap justify-between lg:justify-around align-middle p-2 lg:py-4 py-2 bg-grey backdrop-blur-sm bg-opacity-90 shadow-sm">
+            <button
+                class="flex justify-center items-center align-middle w-10 p-2 hover:bg-greylight rounded-md lg:hidden"
+                id="button-menu">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                    stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" />
+                </svg>
+            </button>
+            <a href="index.html" class="box-border p-2 rounded-md hover:bg-grey">
+                <h3 class="font-inter text-lg font-bold">Raka Sanjaya</h3>
+            </a>
+            <nav class="fixed hidden left-0 top-16 mx-4" id="navigation-menu">
+                <ul
+                    class="flex flex-col px-3 py-3 rounded-xl bg-black bg-opacity-95 font-inter font-medium justify-start items-start w-52 text-sm gap-1 shadow-md backdrop-blur-md">
+                    <li class="w-full">
+                        <a href="index.html"
+                            class="flex w-full p-2 rounded-t-md rounded-b-sm hover:bg-greylight hover:bg-opacity-60">Home</a>
+                    </li>
+                    <li class="w-full">
+                        <a href="about.html"
+                            class="flex w-full p-2 hover:bg-greylight rounded-sm hover:bg-opacity-60">About</a>
+                    </li>
+                    <li class="w-full">
+                        <a href="skills.html"
+                            class="flex w-full p-2 hover:bg-greylight rounded-sm hover:bg-opacity-60">Skills</a>
+                    </li>
+                    <li class="w-full">
+                        <a href="projects.html"
+                            class="flex w-full p-2 bg-greylight rounded-sm bg-opacity-60">Projects</a>
+                    </li>
+                    <li class="w-full">
+                        <a href="contact.html"
+                            class="flex w-full p-2 hover:bg-greylight rounded-b-md rounded-t-sm hover:bg-opacity-60">Contact</a>
+                    </li>
+                </ul>
+            </nav>
+            <nav class="hidden lg:flex">
+                <ul class="flex gap-x-2 align-middle justify-center items-center text-sm">
+                    <li>
+                        <a href="index.html" class="hover:bg-greylight py-3 px-4 rounded-md duration-300">Home</a>
+                    </li>
+                    <li>
+                        <a href="about.html" class="py-3 px-4 hover:bg-greylight duration-300 rounded-md">About</a>
+                    </li>
+                    <li>
+                        <a href="skills.html" class="py-3 px-4 hover:bg-greylight duration-300 rounded-md">Skills</a>
+                    </li>
+                    <li>
+                        <a href="projects.html"
+                            class="py-3 px-4 bg-greylight duration-300 rounded-md text-blue font-bold bg-opacity-75">Projects</a>
+                    </li>
+                    <li>
+                        <a href="contact.html" class="py-3 px-4 hover:bg-greylight duration-300 rounded-md">Contact</a>
+                    </li>
+                </ul>
+            </nav>
+            <a href="contact.html">
+                <button class="w-10 p-2">
+                    <img src="public/icons/phone-call.svg" />
+                </button>
+            </a>
+        </section>
+    </header>
+
+    <main>
+
+        <section class="mt-6 my-20 w-11/12 mx-auto">
+            <h2 class="text-center text-2xl lg:text-xl font-bold rounded-xl w-fit mb-6 mx-auto" data-aos="fade-down"
+                data-aos-duration="800">
+                <span class="text-blue">Project</span> Design
+            </h2>
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-3">
+                <div class="flex box-border bg-grey p-3 flex-col rounded-xl" data-aos="fade-up" data-aos-duration="800">
+                    <img src="public/projects/project-1.png" alt="project-1" class="rounded-t-xl rounded-b-md">
+                    <h1 class="font-bold mt-2">Manipulasi Foto</h1>
+                    <p class="text-xs text-whiteDeep">Mengumpulkan assets, mencari ide dan memanipulasi foto bertema
+                        alam.</p>
+                    <hr class="my-2 border-greylighten">
+                    <img src="public/logo/Photoshop-icon.png" alt="" class="w-8">
+                </div>
+                <div class="flex box-border bg-grey p-3 flex-col rounded-xl" data-aos="fade-up" data-aos-duration="800">
+                    <img src="public/projects/project-2.png" alt="project-1" class="rounded-t-xl rounded-b-md">
+                    <h1 class="font-bold mt-2">Manipulasi Foto</h1>
+                    <p class="text-xs text-whiteDeep">Mengumpulkan assets, mencari ide dan memanipulasi foto bertema
+                        horor.</p>
+                    <hr class="my-2 border-greylighten">
+                    <div class="flex gap-x-2">
+                        <img src="public/logo/Photoshop-icon.png" alt="" class="w-8">
+                        <img src="public/logo/Illustrator-icon.png" alt="" class="w-8">
+                    </div>
+                </div>
+                <div class="flex box-border bg-grey p-3 flex-col rounded-xl" data-aos="fade-up" data-aos-duration="800">
+                    <img src="public/projects/project-3.png" alt="project-1" class="rounded-t-xl rounded-b-md">
+                    <h1 class="font-bold mt-2">Manipulasi Foto</h1>
+                    <p class="text-xs text-whiteDeep">Mengumpulkan assets, mencari ide dan memanipulasi foto.</p>
+                    <hr class="my-2 border-greylighten">
+                    <img src="public/logo/Photoshop-icon.png" alt="" class="w-8">
+                </div>
+                <div class="flex box-border bg-grey p-3 flex-col rounded-xl" data-aos="fade-up" data-aos-duration="800">
+                    <img src="public/projects/project-4.png" alt="project-1" class="rounded-t-xl rounded-b-md">
+                    <h1 class="font-bold mt-2">Manipulasi Foto</h1>
+                    <p class="text-xs text-whiteDeep">Mengumpulkan assets, mencari ide dan memanipulasi foto.</p>
+                    <hr class="my-2 border-greylighten">
+                    <img src="public/logo/Photoshop-icon.png" alt="" class="w-8">
+                </div>
+                <div class="flex box-border bg-grey p-3 flex-col rounded-xl" data-aos="fade-up" data-aos-duration="800">
+                    <img src="public/projects/project-5.png" alt="project-1" class="rounded-t-xl rounded-b-md">
+                    <h1 class="font-bold mt-2">Desain Background</h1>
+                    <p class="text-xs text-whiteDeep">Mendesain illustrasi background untuk keperluan animasi 2D.</p>
+                    <hr class="my-2 border-greylighten">
+                    <img src="public/logo/Illustrator-icon.png" alt="" class="w-8">
+                </div>
+                <div class="flex box-border bg-grey p-3 flex-col rounded-xl" data-aos="fade-up" data-aos-duration="800">
+                    <img src="public/projects/project-6.png" alt="project-1" class="rounded-t-xl rounded-b-md">
+                    <h1 class="font-bold mt-2">Desain Seragam</h1>
+                    <p class="text-xs text-whiteDeep">Mendesain seragam untuk karyawan pondok bakso Pak Parjo.</p>
+                    <hr class="my-2 border-greylighten">
+                    <img src="public/logo/Illustrator-icon.png" alt="" class="w-8">
+                </div>
+                <div class="flex box-border bg-grey p-3 flex-col rounded-xl" data-aos="fade-up" data-aos-duration="800">
+                    <img src="public/projects/project-12.png" alt="project-1" class="rounded-t-xl rounded-b-md">
+                    <h1 class="font-bold mt-2">Design Logo</h1>
+                    <p class="text-xs text-whiteDeep">Mendesign logo untuk keperluan tim saat tugas photography.</p>
+                    <hr class="my-2 border-greylighten">
+                    <img src="public/logo/Illustrator-icon.png" alt="" class="w-8">
+                </div>
+                <div class="flex box-border bg-grey p-3 flex-col rounded-xl" data-aos="fade-up" data-aos-duration="800">
+                    <img src="public/projects/project-10.png" alt="project-1" class="rounded-t-xl rounded-b-md">
+                    <h1 class="font-bold mt-2">Bendera Indonesia</h1>
+                    <p class="text-xs text-whiteDeep">Mendesain bendera Indonesia 3D dalam rangka merayakan kemerdekaan.
+                    </p>
+                    <hr class="my-2 border-greylighten">
+                    <img src="public/logo/Blender-icon.png" alt="" class="w-8">
+                </div>
+                <div class="flex box-border bg-grey p-3 flex-col rounded-xl" data-aos="fade-up" data-aos-duration="800">
+                    <img src="public/projects/project-7.png" alt="project-1" class="rounded-t-xl rounded-b-md">
+                    <h1 class="font-bold mt-2">Cup Coffe Design</h1>
+                    <p class="text-xs text-whiteDeep">Mendesain bentuk cup coffe 3D untuk keperluan tugas mendesain
+                        produk.</p>
+                    <hr class="my-2 border-greylighten">
+                    <img src="public/logo/Blender-icon.png" alt="" class="w-8">
+                </div>
+                <div class="flex box-border bg-grey p-3 flex-col rounded-xl" data-aos="fade-up" data-aos-duration="800">
+                    <img src="public/projects/project-8.png" alt="project-1" class="rounded-t-xl rounded-b-md">
+                    <h1 class="font-bold mt-2">Design Character</h1>
+                    <p class="text-xs text-whiteDeep">Mendesain Character 3D berbentuk TV untuk keperluan tugas di
+                        e-course.</p>
+                    <hr class="my-2 border-greylighten">
+                    <img src="public/logo/Blender-icon.png" alt="" class="w-8">
+                </div>
+                <div class="flex box-border bg-grey p-3 flex-col rounded-xl" data-aos="fade-up" data-aos-duration="800">
+                    <img src="public/projects/project-9.png" alt="project-1" class="rounded-t-xl rounded-b-md">
+                    <h1 class="font-bold mt-2">Isometric Room</h1>
+                    <p class="text-xs text-whiteDeep">Mendesain Ruangan dalam bentuk 3D sebagai latihan tools di
+                        blender.</p>
+                    <hr class="my-2 border-greylighten">
+                    <img src="public/logo/Blender-icon.png" alt="" class="w-8">
+                </div>
+            </div>
+        </section>
+        <section class="mt-6 my-20 w-11/12 mx-auto">
+            <h2 class="text-center text-2xl lg:text-xl font-bold rounded-xl w-fit mb-6 mx-auto" data-aos="fade-up"
+                data-aos-duration="800">
+                <span class="text-blue">Project</span> Website
+            </h2>
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-3">
+                <div class="flex box-border bg-grey p-3 flex-col rounded-xl" data-aos="fade-up" data-aos-duration="800">
+                    <img src="public/projects/project-13.jpg" alt="project-1" class="rounded-t-xl rounded-b-md">
+                    <h1 class="font-bold mt-2">Website Absensi Kebersihan</h1>
+                    <p class="text-xs text-whiteDeep">Website untuk mendata presensi jadwal kebersihan di kantor
+                        Jayaprint.</p>
+                    <hr class="my-2 border-greylighten">
+                    <div class="flex align-middle gap-x-2">
+                        <img src="public/logo/Html-icon.png" alt="" class="w-8">
+                        <img src="public/logo/Css-icon.png" alt="" class="w-8">
+                        <img src="public/logo/Bootstrap-icon.png" alt="" class="w-8">
+                    </div>
+                </div>
+                <div class="flex box-border bg-grey p-3 flex-col rounded-xl" data-aos="fade-up" data-aos-duration="800">
+                    <img src="public/projects/project-14.jpg" alt="project-1" class="rounded-t-xl rounded-b-md">
+                    <h1 class="font-bold mt-2">Website Kalkulator Sederhana</h1>
+                    <p class="text-xs text-whiteDeep">Membuat kalkulator sederhana berbasis Graphical User
+                        Interface(GUI).</p>
+                    <hr class="my-2 border-greylighten">
+                    <div class="flex align-middle gap-x-2">
+                        <img src="public/logo/Html-icon.png" alt="" class="w-8">
+                        <img src="public/logo/Css-icon.png" alt="" class="w-8">
+                        <img src="public/logo/Js-icon.png" alt="" class="w-8">
+                    </div>
+                </div>
+                <div class="flex box-border bg-grey p-3 flex-col rounded-xl" data-aos="fade-up" data-aos-duration="800">
+                    <img src="public/projects/project-15.jpg" alt="project-1" class="rounded-t-xl rounded-b-md">
+                    <h1 class="font-bold mt-2">Website Pesan Rahasia</h1>
+                    <p class="text-xs text-whiteDeep">Membuat website yang dapat mengirim pesan rahasia kepada penerima.
+                    </p>
+                    <hr class="my-2 border-greylighten">
+                    <div class="flex align-middle gap-x-2">
+                        <img src="public/logo/Html-icon.png" alt="" class="w-8">
+                        <img src="public/logo/Css-icon.png" alt="" class="w-8">
+                        <img src="public/logo/Bootstrap-icon.png" alt="" class="w-8">
+                    </div>
+                </div>
+                <div class="flex box-border bg-grey p-3 flex-col rounded-xl" data-aos="fade-up" data-aos-duration="800">
+                    <img src="public/projects/project-16.jpg" alt="project-1" class="rounded-t-xl rounded-b-md">
+                    <h1 class="font-bold mt-2">Website Promosi Produk</h1>
+                    <p class="text-xs text-whiteDeep">Membuat website untuk keperluan marketing dan ads di jayaprint.
+                    </p>
+                    <hr class="my-2 border-greylighten">
+                    <div class="flex align-middle gap-x-2">
+                        <img src="public/logo/Html-icon.png" alt="" class="w-8">
+                        <img src="public/logo/Css-icon.png" alt="" class="w-8">
+                    </div>
+                </div>
+                <div class="flex box-border bg-grey p-3 flex-col rounded-xl" data-aos="fade-up" data-aos-duration="800">
+                    <img src="public/projects/project-17.jpg" alt="project-1" class="rounded-t-xl rounded-b-md">
+                    <h1 class="font-bold mt-2">Company Profile</h1>
+                    <p class="text-xs text-whiteDeep">Membuat website company profile outsourcing untuk PT Satya
+                        Manunggal Jaya.</p>
+                    <hr class="my-2 border-greylighten">
+                    <div class="flex align-middle gap-x-2">
+                        <img src="public/logo/Html-icon.png" alt="" class="w-8">
+                        <img src="public/logo/Css-icon.png" alt="" class="w-8">
+                        <img src="public/logo/Bootstrap-icon.png" alt="" class="w-8">
+                    </div>
+                </div>
+                <div class="flex box-border bg-grey p-3 flex-col rounded-xl" data-aos="fade-up" data-aos-duration="800">
+                    <img src="public/projects/project-18.jpg" alt="project-1" class="rounded-t-xl rounded-b-md">
+                    <h1 class="font-bold mt-2">Todolist App</h1>
+                    <p class="text-xs text-whiteDeep">Membuat website todolist dengan menerapkan beberapa fitur seperti
+                        local storage.</p>
+                    <hr class="my-2 border-greylighten">
+                    <div class="flex align-middle gap-x-2">
+                        <img src="public/logo/Html-icon.png" alt="" class="w-8">
+                        <img src="public/logo/Css-icon.png" alt="" class="w-8">
+                        <img src="public/logo/Js-icon.png" alt="" class="w-8">
+                    </div>
+                </div>
+                <div class="flex box-border bg-grey p-3 flex-col rounded-xl" data-aos="fade-up" data-aos-duration="800">
+                    <img src="public/projects/project-19.jpg" alt="project-1" class="rounded-t-xl rounded-b-md">
+                    <h1 class="font-bold mt-2">BMI Calculator</h1>
+                    <p class="text-xs text-whiteDeep">Memuat website untuk menghitung berat badan yang ideal.</p>
+                    <hr class="my-2 border-greylighten">
+                    <div class="flex align-middle gap-x-2">
+                        <img src="public/logo/Html-icon.png" alt="" class="w-8">
+                        <img src="public/logo/Js-icon.png" alt="" class="w-8">
+                        <img src="public/logo/Tailwind-icon.png" alt="" class="w-8">
+                    </div>
+                </div>
+                <div class="flex box-border bg-grey p-3 flex-col rounded-xl" data-aos="fade-up" data-aos-duration="800">
+                    <img src="public/projects/project-20.jpg" alt="project-1" class="rounded-t-xl rounded-b-md">
+                    <h1 class="font-bold mt-2">Dice Games</h1>
+                    <p class="text-xs text-whiteDeep">Membuat random angka, dan kemenangan mencapai 3 poin.</p>
+                    <hr class="my-2 border-greylighten">
+                    <div class="flex align-middle gap-x-2">
+                        <img src="public/logo/Html-icon.png" alt="" class="w-8">
+                        <img src="public/logo/Css-icon.png" alt="" class="w-8">
+                        <img src="public/logo/Js-icon.png" alt="" class="w-8">
+                    </div>
+                </div>
+                <div class="flex box-border bg-grey p-3 flex-col rounded-xl" data-aos="fade-up" data-aos-duration="800">
+                    <img src="public/projects/project-21.jpg" alt="project-1" class="rounded-t-xl rounded-b-md">
+                    <h1 class="font-bold mt-2">Drum Kit</h1>
+                    <p class="text-xs text-whiteDeep">Membuat drum kit, ditekan huruf pada keyboard atau layar sentuh.
+                    </p>
+                    <hr class="my-2 border-greylighten">
+                    <div class="flex align-middle gap-x-2">
+                        <img src="public/logo/Html-icon.png" alt="" class="w-8">
+                        <img src="public/logo/Css-icon.png" alt="" class="w-8">
+                        <img src="public/logo/Js-icon.png" alt="" class="w-8">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer p-5 bg-grey text-base-content rounded font-inter">
+        <div class="flex justify-center gap-x-2 text-sm">
+            <a href="index.html" class="link link-hover">Home</a>
+            <a href="about.html" class="link link-hover">About</a>
+            <a href="skills.html" class="link link-hover">Skills</a>
+            <a href="contact.html" class="link link-hover">Contact</a>
+        </div>
+        <div>
+            <div class="flex justify-center gap-x-3 my-5">
+                <a href="https://twitter.com/Raka_Odicah_121" target="_blank"><svg xmlns="http://www.w3.org/2000/svg"
+                        width="24" height="24" viewBox="0 0 24 24" class="fill-current">
+                        <path
+                            d="M24 4.557c-.883.392-1.832.656-2.828.775 1.017-.609 1.798-1.574 2.165-2.724-.951.564-2.005.974-3.127 1.195-.897-.957-2.178-1.555-3.594-1.555-3.179 0-5.515 2.966-4.797 6.045-4.091-.205-7.719-2.165-10.148-5.144-1.29 2.213-.669 5.108 1.523 6.574-.806-.026-1.566-.247-2.229-.616-.054 2.281 1.581 4.415 3.949 4.89-.693.188-1.452.232-2.224.084.626 1.956 2.444 3.379 4.6 3.419-2.07 1.623-4.678 2.348-7.29 2.04 2.179 1.397 4.768 2.212 7.548 2.212 9.142 0 14.307-7.721 13.995-14.646.962-.695 1.797-1.562 2.457-2.549z">
+                        </path>
+                    </svg></a>
+                <a href="https://www.youtube.com/@RakaOdicah" target="_blank"><svg xmlns="http://www.w3.org/2000/svg"
+                        width="24" height="24" viewBox="0 0 24 24" class="fill-current">
+                        <path
+                            d="M19.615 3.184c-3.604-.246-11.631-.245-15.23 0-3.897.266-4.356 2.62-4.385 8.816.029 6.185.484 8.549 4.385 8.816 3.6.245 11.626.246 15.23 0 3.897-.266 4.356-2.62 4.385-8.816-.029-6.185-.484-8.549-4.385-8.816zm-10.615 12.816v-8l8 3.993-8 4.007z">
+                        </path>
+                    </svg></a>
+                <a href="https://www.facebook.com/muhamadfaisal.muhamadfaisal.9277" target="_blank"><svg
+                        xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                        class="fill-current">
+                        <path
+                            d="M9 8h-3v4h3v12h5v-12h3.642l.358-4h-4v-1.667c0-.955.192-1.333 1.115-1.333h2.885v-5h-3.808c-3.596 0-5.192 1.583-5.192 4.615v3.385z">
+                        </path>
+                    </svg></a>
+            </div>
+        </div>
+        <div>
+            <p class="text-center text-xs">&copy 2023 - All right reserved by Raka Sanjaya.</p>
+        </div>
+    </footer>
+
+    <script src="public/dom.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+
+</html>
