@@ -179,6 +179,27 @@ buttonSum.addEventListener("click", () => {
     document.getElementById("i32").value = kof23;
     document.getElementById("i33").value = kof33;
 
+    // Result
+    const r11 = 1 * kof11;
+    const r12 = 1 * kof21;
+    const r13 = 1 * kof31;
+    const r21 = 1 * kof12;
+    const r22 = 1 * kof22;
+    const r23 = 1 * kof32;
+    const r31 = 1 * kof13;
+    const r32 = 1 * kof23;
+    const r33 = 1 * kof33;
+
+    document.getElementById("r11").value = `${r11} / ${DET}`;
+    document.getElementById("r12").value = `${r12} / ${DET}`;
+    document.getElementById("r13").value = `${r13} / ${DET}`;
+    document.getElementById("r21").value = `${r21} / ${DET}`;
+    document.getElementById("r22").value = `${r22} / ${DET}`;
+    document.getElementById("r23").value = `${r23} / ${DET}`;
+    document.getElementById("r31").value = `${r31} / ${DET}`;
+    document.getElementById("r32").value = `${r32} / ${DET}`;
+    document.getElementById("r33").value = `${r33} / ${DET}`;
+
     document.getElementById("det-sec").classList.remove("hidden");
     document.getElementById("min-sec").classList.remove("hidden");
     document.getElementById("kof-sec").classList.remove("hidden");

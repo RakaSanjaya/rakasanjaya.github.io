@@ -724,6 +724,10 @@ video {
   height: 1.75rem;
 }
 
+.h-14 {
+  height: 3.5rem;
+}
+
 .w-1\/2 {
   width: 50%;
 }
@@ -791,6 +795,10 @@ video {
 
 .w-full {
   width: 100%;
+}
+
+.w-14 {
+  width: 3.5rem;
 }
 
 .translate-y-2 {
