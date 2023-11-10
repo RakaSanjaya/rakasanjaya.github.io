@@ -190,15 +190,15 @@ buttonSum.addEventListener("click", () => {
     const r32 = 1 * kof23;
     const r33 = 1 * kof33;
 
-    document.getElementById("r11").value = `${r11} / \n ${DET}`;
-    document.getElementById("r12").value = `${r12} / \n ${DET}`;
-    document.getElementById("r13").value = `${r13} / \n ${DET}`;
-    document.getElementById("r21").value = `${r21} / \n ${DET}`;
-    document.getElementById("r22").value = `${r22} / \n${DET}`;
-    document.getElementById("r23").value = `${r23} / \n${DET}`;
-    document.getElementById("r31").value = `${r31} /\n ${DET}`;
-    document.getElementById("r32").value = `${r32} / \n${DET}`;
-    document.getElementById("r33").value = `${r33} /\n ${DET}`;
+    document.getElementById("r11").value = `${r11} / ${DET}`;
+    document.getElementById("r12").value = `${r12} / ${DET}`;
+    document.getElementById("r13").value = `${r13} / ${DET}`;
+    document.getElementById("r21").value = `${r21} / ${DET}`;
+    document.getElementById("r22").value = `${r22} / ${DET}`;
+    document.getElementById("r23").value = `${r23} / ${DET}`;
+    document.getElementById("r31").value = `${r31} / ${DET}`;
+    document.getElementById("r32").value = `${r32} / ${DET}`;
+    document.getElementById("r33").value = `${r33} / ${DET}`;
 
     document.getElementById("det-sec").classList.remove("hidden");
     document.getElementById("min-sec").classList.remove("hidden");
