@@ -205,6 +205,7 @@ buttonSum.addEventListener("click", () => {
     document.getElementById("kof-sec").classList.remove("hidden");
     document.getElementById("adj-sec").classList.remove("hidden");
     document.getElementById("inv-sec").classList.remove("hidden");
+    document.getElementById("res-sec").classList.remove("hidden");
   } else {
     Swal.fire({
       title: "Error!",
