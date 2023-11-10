@@ -83,7 +83,8 @@
     "dev": "npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch"
   },
   "keywords": [],
-  "author": "",
+  "author": "Raka Sanjaya <sanjayaraka722@gmail.com>",
   "license": "ISC",
-  "description": ""
+  "description": "",
+  "repository": "https://github.com/RakaSanjaya/rakasanjaya.github.io.git"
 }
