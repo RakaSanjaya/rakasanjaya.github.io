@@ -1127,6 +1127,10 @@ video {
   vertical-align: middle;
 }
 
+.font-gabarito {
+  font-family: Gabarito, Arial;
+}
+
 .font-inter {
   font-family: inter, Arial;
 }
